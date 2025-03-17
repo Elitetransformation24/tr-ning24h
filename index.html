@@ -7,10 +7,12 @@
     <style>
         body { font-family: Arial, sans-serif; margin: 0; padding: 0; text-align: center; }
         header { background: #222; color: white; padding: 20px; }
+        nav { background: #444; padding: 10px; }
+        nav a { color: white; margin: 0 15px; text-decoration: none; }
         .container { max-width: 800px; margin: 20px auto; padding: 20px; }
         .program { border: 1px solid #ddd; padding: 20px; margin: 10px; }
         footer { background: #222; color: white; padding: 10px; margin-top: 20px; }
-        a { color: #ff5722; text-decoration: none; font-weight: bold; }
+        img { width: 100%; max-width: 500px; border-radius: 10px; }
     </style>
 </head>
 <body>
@@ -19,28 +21,37 @@
         <p>Bli ditt bästa jag med vårt skräddarsydda träningsprogram!</p>
     </header>
     
+    <nav>
+        <a href="index.html">Hem</a>
+        <a href="about.html">Om oss</a>
+        <a href="programs.html">Program</a>
+        <a href="checkout.html">Kassa</a>
+        <a href="contact.html">Kontakt</a>
+    </nav>
+    
     <div class="container">
         <h2>Våra Program</h2>
+        <img src="fitness.jpg" alt="Träning">
         
         <div class="program">
             <h3>Basic Shred (8 veckor)</h3>
             <p>Fokus på fettförbränning och enkel kostplan.</p>
             <p><strong>Pris: 1 999 kr</strong></p>
-            <a href="#">Boka nu</a>
+            <a href="checkout.html">Boka nu</a>
         </div>
         
         <div class="program">
             <h3>Ultimate Physique (12 veckor)</h3>
             <p>Muskeluppbyggnad och fettförbränning med individanpassad plan.</p>
             <p><strong>Pris: 3 499 kr</strong></p>
-            <a href="#">Boka nu</a>
+            <a href="checkout.html">Boka nu</a>
         </div>
         
         <div class="program">
             <h3>Elite Transformation (16 veckor)</h3>
             <p>Heltäckande program med strikt kost och träningsplan.</p>
             <p><strong>Pris: 4 999 kr</strong></p>
-            <a href="#">Boka nu</a>
+            <a href="checkout.html">Boka nu</a>
         </div>
     </div>
     
