@@ -1,62 +1,78 @@
 <!DOCTYPE html>
 <html lang="sv">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Elite Transformation</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Min Hemsida</title>
     <style>
-        body { font-family: Arial, sans-serif; margin: 0; padding: 0; text-align: center; }
-        header { background: #222; color: white; padding: 20px; }
-        nav { background: #444; padding: 10px; }
-        nav a { color: white; margin: 0 15px; text-decoration: none; }
-        .container { max-width: 800px; margin: 20px auto; padding: 20px; }
-        .program { border: 1px solid #ddd; padding: 20px; margin: 10px; }
-        footer { background: #222; color: white; padding: 10px; margin-top: 20px; }
-        img { width: 100%; max-width: 500px; border-radius: 10px; }
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        nav {
+            background-color: #333;
+            padding: 1rem;
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 0.5rem;
+        }
+        nav a:hover {
+            background-color: #555;
+        }
+        .content {
+            padding: 2rem;
+            text-align: center;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 1rem;
+        }
     </style>
 </head>
 <body>
-    <header>
-        <h1>Elite Transformation</h1>
-        <p>Bli ditt bästa jag med vårt skräddarsydda träningsprogram!</p>
-    </header>
-    
-    <nav>
-        <a href="index.html">Hem</a>
-        <a href="about.html">Om oss</a>
-        <a href="programs.html">Program</a>
-        <a href="checkout.html">Kassa</a>
-        <a href="contact.html">Kontakt</a>
-    </nav>
-    
-    <div class="container">
-        <h2>Våra Program</h2>
-        <img src="fitness.jpg" alt="Träning">
-        
-        <div class="program">
-            <h3>Basic Shred (8 veckor)</h3>
-            <p>Fokus på fettförbränning och enkel kostplan.</p>
-            <p><strong>Pris: 1 999 kr</strong></p>
-            <a href="checkout.html">Boka nu</a>
-        </div>
-        
-        <div class="program">
-            <h3>Ultimate Physique (12 veckor)</h3>
-            <p>Muskeluppbyggnad och fettförbränning med individanpassad plan.</p>
-            <p><strong>Pris: 3 499 kr</strong></p>
-            <a href="checkout.html">Boka nu</a>
-        </div>
-        
-        <div class="program">
-            <h3>Elite Transformation (16 veckor)</h3>
-            <p>Heltäckande program med strikt kost och träningsplan.</p>
-            <p><strong>Pris: 4 999 kr</strong></p>
-            <a href="checkout.html">Boka nu</a>
-        </div>
-    </div>
-    
-    <footer>
-        <p>Kontakt: info@elitetransformation.se | Följ oss på sociala medier</p>
-    </footer>
+
+<nav>
+    <a href="#home">Hem</a>
+    <a href="#about">Om oss</a>
+    <a href="#program">Program</a>
+    <a href="#checkout">Kassa</a>
+</nav>
+
+<div id="home" class="content">
+    <h1>Välkommen till vår hemsida!</h1>
+    <img src="https://source.unsplash.com/600x400/?nature" alt="Bild på natur">
+    <p>Utforska vårt utbud och våra tjänster.</p>
+</div>
+
+<div id="about" class="content">
+    <h1>Om oss</h1>
+    <img src="https://source.unsplash.com/600x400/?team" alt="Bild på team">
+    <p>Vi är ett engagerat team som brinner för att leverera högkvalitativa tjänster.</p>
+</div>
+
+<div id="program" class="content">
+    <h1>Program</h1>
+    <img src="https://source.unsplash.com/600x400/?technology" alt="Bild på teknologi">
+    <p>Upptäck våra senaste program och innovationer.</p>
+</div>
+
+<div id="checkout" class="content">
+    <h1>Kassa</h1>
+    <img src="https://source.unsplash.com/600x400/?shopping" alt="Bild på shopping">
+    <p>Slutför ditt köp enkelt och snabbt.</p>
+</div>
+
+<footer style="text-align: center; padding: 1rem; background-color: #f1f1f1;">
+    <p>&copy; 2025 Min Hemsida | <a href="https://github.com/dittkonto" target="_blank">GitHub</a></p>
+</footer>
+
 </body>
 </html>
